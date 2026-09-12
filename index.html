@@ -1,1 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Aurelia — Evenings Worth Remembering</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <a href="#" class="logo">Aurelia</a>
+
+        <nav class="nav">
+            <a href="#season">The Season</a>
+            <a href="#standard">The Aurelia Standard</a>
+            <a href="#membership">Membership</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-button" id="menuButton" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+
+        <button class="menu-close" id="menuClose">
+            ×
+        </button>
+
+        <a href="#season">The Season</a>
+        <a href="#standard">The Aurelia Standard</a>
+        <a href="#membership">Membership</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-background"></div>
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                <span class="eyebrow-dot"></span>
+                BY INVITATION, FOR EVERYONE
+            </div>
+
+            <h1>
+                Evenings worth
+                <em>remembering</em>
+            </h1>
+
+            <p>
+                Aurelia curates the world's most exclusive
+                galas, concerts, and private experiences.
+                Reserve Premium and Luxury tickets to
+                nights that few will ever witness.
+            </p>
+
+            <div class="hero-actions">
+
+                <a href="#season" class="gold-button">
+                    EXPLORE EVENTS
+                    <span>→</span>
+                </a>
+
+                <a href="#membership" class="outline-button">
+                    BECOME A MEMBER
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO STATS -->
+        <div class="hero-stats">
+
+            <div>
+                <strong>40+</strong>
+                <span>
+                    CITIES<br>
+                    WORLDWIDE
+                </span>
+            </div>
+
+            <div>
+                <strong>120</strong>
+                <span>
+                    CURATED<br>
+                    EVENINGS A YEAR
+                </span>
+            </div>
+
+            <div>
+                <strong>1:1</strong>
+                <span>
+                    CONCIERGE<br>
+                    FOR EVERY GUEST
+                </span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SEASON -->
+    <section class="season" id="season">
+
+        <div class="section-intro">
+
+            <span class="gold-label">
+                THE SEASON
+            </span>
+
+            <h2>
+                A calendar of<br>
+                rare evenings
+            </h2>
+
+            <p>
+                Every event is limited, vetted, and hosted in
+                extraordinary venues. Choose your evening,
+                then your Premium or Luxury tier.
+            </p>
+
+        </div>
+
+
+        <!-- EVENTS -->
+
+        <div class="events">
+
+
+            <!-- EVENT 1 -->
+            <article class="event-card">
+
+                <div class="event-image">
+                    <img src="images/velvet-symphony.jpg"
+                         alt="The Velvet Symphony">
+
+                    <span class="date">
+                        NOV 21 · 8:00 PM
+                    </span>
+                </div>
+
+                <div class="event-details">
+
+                    <span class="event-type">
+                        ORCHESTRAL GALA · VIENNA
+                    </span>
+
+                    <h3>
+                        The Velvet Symphony
+                    </h3>
+
+                    <h4>
+                        Goldener Saal
+                    </h4>
+
+                    <p>
+                        A candlelit evening of the world's most
+                        revered orchestral works, performed beneath
+                        a canopy of crystal.
+                    </p>
+
+                    <div class="event-divider"></div>
+
+                    <div class="ticket-buttons">
+
+                        <a href="#" class="premium">
+                            PREMIUM
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#" class="luxury">
+                            ✧ LUXURY
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                    <div class="price">
+                        From <b>$480</b> per guest
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- EVENT 2 -->
+            <article class="event-card">
+
+                <div class="event-image">
+
+                    <img src="images/midnight-noir.jpg"
+                         alt="Midnight Noir Ball">
+
+                    <span class="date">
+                        DEC 5 · 10:00 PM
+                    </span>
+
+                </div>
+
+                <div class="event-details">
+
+                    <span class="event-type">
+                        MASQUERADE · PARIS
+                    </span>
+
+                    <h3>
+                        Midnight Noir Ball
+                    </h3>
+
+                    <h4>
+                        Hôtel Particulier
+                    </h4>
+
+                    <p>
+                        An after-dark masquerade where anonymity
+                        meets opulence. Black tie and gilded
+                        masks required.
+                    </p>
+
+                    <div class="event-divider"></div>
+
+                    <div class="ticket-buttons">
+
+                        <a href="#" class="premium">
+                            PREMIUM
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#" class="luxury">
+                            ✧ LUXURY
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                    <div class="price">
+                        From <b>$620</b> per guest
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- EVENT 3 -->
+            <article class="event-card">
+
+                <div class="event-image">
+
+                    <img src="images/aurum-jazz.jpg"
+                         alt="Aurum Jazz Lounge">
+
+                    <span class="date">
+                        NOV 30 · 9:00 PM
+                    </span>
+
+                </div>
+
+                <div class="event-details">
+
+                    <span class="event-type">
+                        INTIMATE CONCERT · NEW YORK
+                    </span>
+
+                    <h3>
+                        Aurum Jazz Lounge
+                    </h3>
+
+                    <h4>
+                        The Carlyle Room
+                    </h4>
+
+                    <p>
+                        A rare intimate set in a velvet-draped room
+                        seating only forty guests. Whisper-close to
+                        the stage.
+                    </p>
+
+                    <div class="event-divider"></div>
+
+                    <div class="ticket-buttons">
+
+                        <a href="#" class="premium">
+                            PREMIUM
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#" class="luxury">
+                            ✧ LUXURY
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                    <div class="price">
+                        From <b>$390</b> per guest
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- EVENT 4 -->
+            <article class="event-card">
+
+                <div class="event-image">
+
+                    <img src="images/grand-vintner.jpg"
+                         alt="The Grand Vintner">
+
+                    <span class="date">
+                        DEC 12 · 6:30 PM
+                    </span>
+
+                </div>
+
+                <div class="event-details">
+
+                    <span class="event-type">
+                        PRIVATE TASTING · BORDEAUX
+                    </span>
+
+                    <h3>
+                        The Grand Vintner
+                    </h3>
+
+                    <h4>
+                        Château Lumière
+                    </h4>
+
+                    <p>
+                        A guided descent into a century-old cellar,
+                        tasting rare vintages poured by their makers.
+                    </p>
+
+                    <div class="event-divider"></div>
+
+                    <div class="ticket-buttons">
+
+                        <a href="#" class="premium">
+                            PREMIUM
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#" class="luxury">
+                            ✧ LUXURY
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                    <div class="price">
+                        From <b>$540</b> per guest
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- EVENT 5 -->
+            <article class="event-card">
+
+                <div class="event-image">
+
+                    <img src="images/celestial-rooftop.jpg"
+                         alt="Celestial Rooftop Soirée">
+
+                    <span class="date">
+                        DEC 18 · 7:00 PM
+                    </span>
+
+                </div>
+
+                <div class="event-details">
+
+                    <span class="event-type">
+                        SKYLINE AFFAIR · DUBAI
+                    </span>
+
+                    <h3>
+                        Celestial Rooftop Soirée
+                    </h3>
+
+                    <h4>
+                        The Aurora Terrace
+                    </h4>
+
+                    <p>
+                        An open-air evening above the city, with a live
+                        set, aerial performers, and endless champagne.
+                    </p>
+
+                    <div class="event-divider"></div>
+
+                    <div class="ticket-buttons">
+
+                        <a href="#" class="premium">
+                            PREMIUM
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#" class="luxury">
+                            ✧ LUXURY
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                    <div class="price">
+                        From <b>$450</b> per guest
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- EVENT 6 -->
+            <article class="event-card">
+
+                <div class="event-image">
+
+                    <img src="images/imperial-opera.jpg"
+                         alt="Imperial Opera Night">
+
+                    <span class="date">
+                        JAN 9 · 8:30 PM
+                    </span>
+
+                </div>
+
+                <div class="event-details">
+
+                    <span class="event-type">
+                        OPERA · MILAN
+                    </span>
+
+                    <h3>
+                        Imperial Opera Night
+                    </h3>
+
+                    <h4>
+                        Teatro Reale
+                    </h4>
+
+                    <p>
+                        A resplendent staging in a historic house
+                        of gold and velvet, followed by a grand
+                        intermission gala.
+                    </p>
+
+                    <div class="event-divider"></div>
+
+                    <div class="ticket-buttons">
+
+                        <a href="#" class="premium">
+                            PREMIUM
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#" class="luxury">
+                            ✧ LUXURY
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                    <div class="price">
+                        From <b>$510</b> per guest
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- AURELIA STANDARD -->
+    <section class="standard" id="standard">
+
+        <div class="standard-intro">
+
+            <span class="gold-label">
+                THE AURELIA STANDARD
+            </span>
+
+            <h2>
+                Luxury is in the
+                <em>detail</em>
+            </h2>
+
+            <p>
+                We treat an evening the way a maison treats a
+                commission — with patience, precision, and a
+                refusal to compromise. This is what every ticket
+                carries.
+            </p>
+
+        </div>
+
+
+        <!-- STANDARD FEATURES -->
+
+        <div class="features">
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    ♕
+                </div>
+
+                <h3>
+                    Curated, never crowded
+                </h3>
+
+                <p>
+                    Guest lists are intentionally small. Every
+                    evening is vetted so the room feels as
+                    considered as the programme.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    ♧
+                </div>
+
+                <h3>
+                    A concierge for every guest
+                </h3>
+
+                <p>
+                    From seating to transfers, a dedicated
+                    concierge attends to the details so you attend
+                    only to the moment.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    ◇
+                </div>
+
+                <h3>
+                    Extraordinary venues
+                </h3>
+
+                <p>
+                    We choose spaces with character, history,
+                    atmosphere and a sense of occasion.
+                </p>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    Every detail considered
+                </h3>
+
+                <p>
+                    From your arrival to the final farewell,
+                    every part of your evening is thoughtfully
+                    designed.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MEMBERSHIP -->
+    <section class="membership" id="membership">
+
+        <span class="gold-label">
+            AURELIA MEMBERSHIP
+        </span>
+
+        <h2>
+            An invitation to
+            <em>the extraordinary.</em>
+        </h2>
+
+        <p>
+            Join a private circle with access to rare evenings,
+            priority reservations and dedicated concierge service.
+        </p>
+
+        <a href="#" class="gold-button">
+            BECOME A MEMBER
+            <span>→</span>
+        </a>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+
+        <span class="gold-label">
+            CONTACT
+        </span>
+
+        <h2>
+            Your next evening
+            <em>awaits.</em>
+        </h2>
+
+        <p>
+            Let Aurelia arrange something worth remembering.
+        </p>
+
+        <a href="mailto:hello@aurelia.com">
+            hello@aurelia.com
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            Aurelia
+        </div>
+
+        <div class="footer-links">
+            <a href="#season">Events</a>
+            <a href="#standard">Standard</a>
+            <a href="#membership">Membership</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <p>
+            © 2026 Aurelia. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
